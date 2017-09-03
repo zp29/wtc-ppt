@@ -8,16 +8,6 @@ speaker: 29~
 # 木有高深的内容，**只是入门**
 ## 29～
 
-[slide]
-
-# 目录
-
-- 安装环境
-- Git
-- Less
-- es6
-- 实战
-
 
 [slide]
 
@@ -32,13 +22,14 @@ speaker: 29~
 [slide] 
 
 # IDE
+
 > 适合自己
 
-- Sublime Text 3 (文件编辑器)
-- Webstorm (IDE)
+- Sublime Text 3
+- Webstorm 
 - Visual Studio Code
 - Hbuilder
-- Atomm
+- Atom
 - ...
 
 [slide]
@@ -55,6 +46,7 @@ speaker: 29~
 
 
 [slide]
+
 #Node.Js
 
 - [Node.Js](http://nodejs.org)
@@ -65,6 +57,7 @@ speaker: 29~
 - [Less](http://www.bootcss.com/p/lesscss/) (CSS的另一种写法)
 
 [slide]
+
 #Git
 
 <img src="http://ots3ze24j.bkt.clouddn.com/sgj.png" alt="img" width="300" style="margin:20px auto">
@@ -74,9 +67,13 @@ speaker: 29~
 - `国内`代码托管网站 [Conding](http://www.coding.net)
 
 [slide]
+
 # 流程
+
 - 配置环境
 - Git
-- HTML + CSS
-- Js
+- Less
+- Js(es6)
 - 项目实战
+
+> 实战为主
