@@ -4,12 +4,13 @@
 
 ## 使用
 
-### 基础于NodeJs NodePPT
+### 提前
 
-```
-安装 [Node.Js](https://nodejs.org/en/)
-安装 [git](https://git-scm.com/)
-```
+> 基础于NodeJs NodePPT
+
+- 安装 [Node.Js](https://nodejs.org/en/)
+- 安装 [git](https://git-scm.com/)
+
 
 > 打开命令行 =>
 
