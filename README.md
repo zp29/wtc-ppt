@@ -17,7 +17,7 @@
 npm install nodeppt -g
 git clone git@github.com:zp29/wtc-ppt.git
 cd wtc-ppt
-nodeppt start
+nodeppt start -p 8080
 ```
 ### 浏览器打开 [127.0.0.1:8080](127.0.0.1:8080)
 
