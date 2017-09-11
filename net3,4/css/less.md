@@ -20,14 +20,14 @@ $ npm i less -g
 
 ## 编译工具
 
-### 下载安装[Koala](http://koala-app.com/index-zh.html)
+### [Koala](http://koala-app.com/index-zh.html)
+
+### [gulp](http://gulp.org)
 
 
 [slide]
 
 # 三分钟学会less
-
-## <img src="http://ots3ze24j.bkt.clouddn.com/bang.png" style="width:300px;margin:auto" >
 
 ## 常用语法
 

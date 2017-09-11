@@ -45,30 +45,8 @@ speaker: zp | 29
 [slide]
 
 # 安装
-- [``Win``](https://git-scm.com/download/win)
-- [`Mac`](https://git-scm.com/download/mac)
-- [`Linux`](https://git-scm.com/downloads)
 
-[slide]
-
-# 开始使用
-
-	## [Github](http://github.com)
-	水土不服-访问慢 <br/>
-	最大的同性交友网站
-
-- - -
-
-	## [Coding](http://coding.net)
-	如鱼得水-访问快 <br />
-	使用人数较少
-
-
-[slide]
-
-# 注册Coding
-
-	[Coding](http://coding.net)(http://coding.net)
+[下载](https://git-scm.com/download/win)
 
 [slide]
 
@@ -111,10 +89,10 @@ speaker: zp | 29
 # 操作完成
 
 ---
-	- _`git clone`_ 网络->本地并建立链接 <br>
-	- _`git add`_ 本地缓存 <br>
-	- _`git commit -m "注释"`_ 本地仓库 <br>
-	- _`git push origin master`_ 本地仓库->远程仓库 <br>
+    - _`git clone`_ 网络->本地并建立链接 <br>
+    - _`git add`_ 本地缓存 <br>
+    - _`git commit -m "注释"`_ 本地仓库 <br>
+    - _`git push origin master`_ 本地仓库->远程仓库 <br>
 
 > 以上可能是git的 1%100的命令，但足够提交作业
 
