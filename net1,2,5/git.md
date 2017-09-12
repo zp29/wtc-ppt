@@ -34,6 +34,6 @@ git push origin master
 
 [slide]
 
-# gulp + less + es6
+# gulp + less
 
 实战项目

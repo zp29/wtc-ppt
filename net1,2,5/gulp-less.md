@@ -61,7 +61,7 @@ npm i gulp gulp-less --save-dev
 
 ```
 var gulp = require('gulp')
-var less = require('less')
+var less = require('gulp-less')
 // 引用gulp和less模块
 
 gulp.task('less',function() {
@@ -74,4 +74,41 @@ gulp.task('less',function() {
   })
 ```
 
+
 [slide]
+
+# 启动任务
+```
+// 进入到根目录下
+gulp less
+```
+
+[slide]
+
+# 当文件发生改变的时候，自动执行less
+
+```
+gulp.task('autoless', function() {
+  gulp.watch('src/less/**.**', ['less'])
+  })
+gulp.task('default', ['less','autoless'])
+```
+
+[slide]
+
+## 打开命令行
+```
+$ gulp autoless
+```
+
+[slide]
+
+配置虽繁琐，但每次项目使用的功能都差不多，只需配置`一次`，后面可`多次使用`
+> 提前，你需要会看懂gulpfile.js文件
+
+
+[slide]
+
+# [gulp](https://github.com/nimojs/gulp-book)
+
+## 我的配置文件 [gulpfile](https://github.com/zp29/wtc-ppt)
