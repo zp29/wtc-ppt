@@ -1,71 +1,39 @@
 
- title: 前端入门课程
- speaker: 29~
+title: git
+speaker: 29~
+
 
 [slide]
 
-# 前端入门课程
-### [29](https://github.com/zp29)
+# git
+
 
 [slide]
 
-# 找工作
-## [lagou](http://www.lagou.com)
-## [ali](https://campus.alibaba.com/position.htm?refno=11814)
+## 回顾
+```
+git config --global user.name 'name'
+git config --global user.email '3456789@qq.com'
+git add .
+git commit -m "add file"
+git push origin master
+```
 
 [slide]
 
-# 学习流程
+## 不好的地方
 
-- Git
-- gulp
-- ES6
+> 每次push都需要输入密码
 
 [slide]
 
-# 第一步
+## [配置SSH公钥](https://coding.net/help/doc/git/ssh-key.html)
 
-## 注册[github](http://github.com)
-
-[slide]
-
-# 四条命令
-<br />
-
-` git clone `
-` git add `
-` git commit `
-` git push `
-
-<br />
-<br />
-## 实现本地到github
+## 时间和环境的原因，下课自行操作
+## 很简单
 
 [slide]
 
-# 克隆远程仓库到本地
-` $ git clone github.com/username/project `
+# gulp + less + es6
 
-[slide]
-
-# 修改下文件...
-
-[slide]
-
-# 文件上传至本地git服务器
-
-- `$ git add .`
-- `$ git commit -m "第一次上传文件"`
-
-[slide]
-
-# 本地到远程
-
-`$ git push origin mster`
-
-> 这时候应该会报错
-> 需要你填下你的name,email
-
-[slide]
-
-## END(._.)
+实战项目
