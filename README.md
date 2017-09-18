@@ -22,5 +22,3 @@ nodeppt start -p 8080
 ### 浏览器打开 [127.0.0.1:8080](127.0.0.1:8080)
 
 > 更多NodePPT命令查看[nodeppt](https://github.com/ksky521/nodeppt)
-
-
