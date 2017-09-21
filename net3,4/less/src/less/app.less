@@ -1,0 +1,120 @@
+
+@import 'reset';
+// 样式重置
+@import 'var';
+//  变量文件
+@import 'fun';
+// 函数文件
+
+body{
+	background-color: ##f5f5f5;
+}
+
+
+header{
+	.clear();
+	.container(30px);
+
+	.logo, nav, .search, ul, li{
+		float: left;
+		height: @nav_height;
+		line-height: @nav_height;
+		overflow: hidden;
+	}
+
+	.logo{
+		width: 20%;
+	}
+
+	nav{
+		width: 80%;
+		ul{
+			.clear();
+			width: 100%;
+		}
+		li{
+			float: left;
+			width: 18%;
+			text-align: center;
+			overflow: hidden;
+		}
+
+		a{
+			color: #111;
+			padding:  15px 25px;
+			overflow: hidden;
+			position: relative;
+
+			&:after{
+				position: absolute;
+				bottom: 0;left: 50%; transform: translateX(-50%);
+				content: '';
+				width: 100%; height: 3px;
+				background-color: orangered;
+				transition:all ease .5s;
+				left: -50%;
+				opacity: 0;
+			}
+
+			&:hover{
+				color: orangered;
+				&:after{
+					left: 50%;
+					opacity: 1;
+				}
+			}
+
+		}
+	}
+
+
+}
+// Header END();
+
+.show() {
+	background-color: #3366CC;
+	color: #fff;
+	h3{
+		color: #60A9F0;
+	}
+}
+
+.container{
+	&>section{
+		.container();
+		.clear();
+		&>div{
+			margin-top: 30px;
+			padding: 30px;
+			box-sizing: border-box;
+			li{
+				margin: 10px 0;
+			}
+		}
+		.left{float: left;}
+		.right{float: right;}
+	}
+
+	.languages{
+		.left{
+			width: 70%;
+			.show()
+		}
+		.right{
+			width: 30%;
+		}
+	}
+
+	.about{
+		.left{
+			width: 30%;
+		}
+		.right{
+			width: 70%;
+			.show()
+		}
+	}
+}
+
+
+

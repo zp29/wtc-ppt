@@ -1,0 +1,18 @@
+
+/**
+ * 函数文件
+ */
+
+
+.clear() {
+	&:after{
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.container ( @top:0px ) {
+	width: @container_width;max-width: @container_width_max;
+	margin:@top auto 0;
+}
