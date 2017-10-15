@@ -38,7 +38,7 @@ speaker: 29~
 > 给自己的作品`备份`
 
 - npm包管理工具
-> 如何装逼的使用`命令行`下载jquery|bootstrap...
+> 如何使用`命令行`下载jquery|bootstrap...
 
 - Less
 > CSS的`高端`写法
