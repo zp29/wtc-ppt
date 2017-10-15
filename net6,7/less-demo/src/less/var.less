@@ -1,0 +1,50 @@
+
+@body_bg: #f9f9f9;
+// body bg
+
+@hf_color: #fff;
+@hf_bg: orange;
+// header && footer 字体颜色 
+
+@icon_wh: 90px;
+// icon大小
+
+@year_wh: 98px;
+// 年份高度及圆高宽
+
+.header_footer() {
+	background-color: @hf_bg;
+	text-align: center;
+	overflow: hidden;
+	color: @hf_color;
+}
+
+.clear() {
+	&:after{
+		content: '';display: table;
+		clear: both;
+	}
+}
+
+
+.ab( @top:0, @left:0, @z:0 ) {
+	content: ''; display: block;
+	position: absolute;
+	left: @left; top: @top;
+	z-index: @z;
+}
+
+.container( @w:1200px, @h:auto, @m:0 ) {
+	width: @w; height: @h;
+	margin:@m auto;
+}
+
+.text-line-cneter( @height ) {
+ height: @height; line-height: @height;
+}
+
+.box( @color:orange  ) {
+	h2{ background-color: @color !important; }
+	h3{ color: @color !important; }
+	.icon{ &:before{ background-color: @color !important; } }
+}

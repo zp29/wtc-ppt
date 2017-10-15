@@ -1,0 +1,80 @@
+@import 'normalize';
+@import 'var';
+// 变量文件
+@import 'icon';
+// 图标文件
+
+body,html{ width: 100%; height: 100%; background-color: @body_bg }
+
+header{
+	.header_footer();
+}
+footer{
+	.header_footer();
+}
+
+
+.container {
+	.container( 1200px, auto , 20px );
+	.boxs{
+		.clear();
+		.box{
+			text-align: center;
+			float: left; width: 33%;
+		}
+		.box1{
+			.box(#5eb1be);
+		}
+		.box2{
+			.box(#63A2D8);
+		}
+		.box3{
+			.box(#00dfd5);
+		}
+	}
+}
+
+.box{
+	position: relative;
+	div.icon{
+		&:after{
+			.ab(120px,0);
+			width: 100%; height: 3px;
+			background-color: #ccc;
+		}
+		&:before{
+			.ab(120px, 0, 66);
+			right: 0;
+			.container(30px, 30px, 0);
+			border-radius: 50%;
+			// background-color: orange;
+			transform: translateY(-50%);
+		}
+	}
+	.icon{
+		.container( @icon_wh, @icon_wh , 0 );
+	}
+	.year{
+		margin-top: @icon_wh / 1.25;
+		overflow: hidden;
+		h2{
+			.container( 50%, @year_wh , 0 );
+			.text-line-cneter( @year_wh );
+			color: #fff;
+			border-radius: 50%; 
+			position: relative;
+			&:after{
+				.ab(0,@year_wh / 2 * -1);
+				background-color: @body_bg;
+				width: @year_wh; height: @year_wh;
+				border-radius: 50%;
+			}
+		}
+	}
+	.text{
+		text-align: left;
+		text-indent: 20px; line-height: 1.8;
+		padding:0 15px 15px 15px; box-sizing: border-box;
+		color: #666;
+	}
+}
