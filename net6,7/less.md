@@ -97,6 +97,22 @@ header{
 /* 引入 var.less header.less footer.less; */
 ```
 
+[slide]
+
+# 做个小案例...
+
+.....
+
+[slide]
+
+## 推荐
+
+- [Less](http://www.bootcss.com/p/lesscss/)
+>  十分钟入门教程,更多需要自己去练习.
+
+- [Sass](http://www.w3cplus.com/sassguide/)
+> 更加高端的css另种写法,可能比less更加强大.
+
 
 
 
