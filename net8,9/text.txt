@@ -1,0 +1,158 @@
+git clone
+// 远程仓库克隆到本地
+
+git add ...
+git commit -m "为什么上传..."
+    git config ---global user.nane ""
+    git config ---global user.email ""
+//  上传到`本地`服务器
+
+git push origin master
+//  上传到`远程`服务器
+
+
+
+npm..
+
+// 新建一个文件夹
+// 打开命令行
+
+
+npm init -y
+// 项目初始化 package.json
+
+npm i jquery bootstrap --save
+// 安装jquery和bootstrap 并保存到 package.json
+
+
+// 实用的npm工具
+
+ppt -> `nodeppt`
+
+npm i nodeppt -g
+// 安装 nodeppt
+// 需要学习 markdown
+
+markdown 简介
+
+    文件名是md
+
+    标题
+    #
+    ##
+    ###
+
+    链接
+    [baidu][http:www.baidu.com]
+
+    列表
+    - list1
+    - list2
+    - list3
+
+
+
+# gulp
+
+Gulp.**js**
+是一个自动化构建工具,开发者可以使用它在项目开发过程中`自动执行`常见任务。
+
+新建目录
+
+
+package.json
+/dist /* gulp自动生化的文件夹 -> gulp压缩后的文件 */
+/src /* 源文件目录 */
+    index.html
+
+/* 业务1:
+
+    将src/下面的index.html 复制到 dist/
+
+ */
+
+ ```bash
+ npm init -y
+ touch gulpfile.js
+ ```
+
+gulpfile.js /* gulp任务文件 */
+package.json
+/dist /* gulp自动生化的文件夹 -> gulp压缩后的文件 */
+/src /* 源文件目录 */
+    index.html
+
+```
+
+var gulp = require('gulp');
+// 引入gulp模块
+
+gulp.task('html', function() {
+// 定义 html 事件 -> 复制index.html ->  dist/
+    gulp.src('src/index.html')
+    // 找到index.html文件
+        .pipe(gulp.dest('dist/'))
+        // 执行 另存为dist/
+})
+
+```
+
+
+
+/* 业务2:
+
+    找到src/less/ 下面的 app.less
+    解析
+    压缩
+    复制到 dist/
+
+ */
+
+
+```
+var less = require('gulp-less');
+// 引入 gulp-less 模块
+var mincss = require('gulp-clean-css');
+// 压缩css
+
+gulp.task('less', function(){
+    gulp.src('src/less/app.less')
+    // 找到文件
+        .pipe(less())
+        //  解析less -> css
+        .pipe(mincss())
+        // 压缩css
+        .pipe(gulp.dest('dist/css/'))
+        // 另存为 dist/css
+})
+
+```
+
+
+
+/* 业务2:
+    监听src/less/ 下面的 *.less
+    解析 app.less
+    压缩 app.css
+    复制到 dist/css/
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
